@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen flex flex-col items-center justify-center bg-black">
+      <iframe
+        className="h-60 w-60"
+        src={"https://giphy.com/embed/lgcUUCXgC8mEo"}
+        frameborder="0"
+      ></iframe>
+      <p className="text-white font-mono">
+        what are you looking for ? <br /> my site under construction
+      </p>
     </div>
   );
 }
